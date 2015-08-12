@@ -262,13 +262,13 @@
 				C60888AFB482254815CEA357 /* iOS */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E41C792BC4B335E9DB7802CC = {
 			isa = PBXGroup;
 			children = (
 				DF9CAC9729BC9255238490C1 /* Podfile */,
-				CA6C0E568138979E43C376B5 /* Frameworks */,
 				4661E00C6FBE197606A3E2E9 /* Pods */,
 				FD0277A400E19441CAB84077 /* Products */,
 				3F69D9DC52118D09954D29E1 /* Targets Support Files */,
@@ -287,6 +287,7 @@
 		FADB28190F2BDEB40808B115 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				CA6C0E568138979E43C376B5 /* Frameworks */,
 				D2CDF34C3DA3610C20EE7A8F /* AFNetworking.h */,
 				878EBAE40FB5EDEE19E97270 /* NSURLConnection */,
 				6FDFA476853ED27AEF56E1B1 /* NSURLSession */,

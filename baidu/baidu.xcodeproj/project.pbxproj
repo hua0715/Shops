@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32E4521A1B7AF85600195769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E452191B7AF85600195769 /* main.m */; };
+		32E4521D1B7AF85600195769 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4521C1B7AF85600195769 /* AppDelegate.m */; };
+		32E452201B7AF85600195769 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4521F1B7AF85600195769 /* ViewController.m */; };
+		32E452231B7AF85600195769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E452211B7AF85600195769 /* Main.storyboard */; };
+		32E452251B7AF85600195769 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E452241B7AF85600195769 /* Images.xcassets */; };
+		32E452281B7AF85600195769 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E452261B7AF85600195769 /* LaunchScreen.xib */; };
+		32E452341B7AF85600195769 /* baiduTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E452331B7AF85600195769 /* baiduTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32E4522E1B7AF85600195769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E4520C1B7AF85600195769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E452131B7AF85600195769;
+			remoteInfo = baidu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32E452141B7AF85600195769 /* baidu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baidu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E452181B7AF85600195769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E452191B7AF85600195769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32E4521B1B7AF85600195769 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32E4521C1B7AF85600195769 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32E4521E1B7AF85600195769 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32E4521F1B7AF85600195769 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32E452221B7AF85600195769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32E452241B7AF85600195769 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32E452271B7AF85600195769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		32E4522D1B7AF85600195769 /* baiduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baiduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E452321B7AF85600195769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E452331B7AF85600195769 /* baiduTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baiduTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E452111B7AF85600195769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E4522A1B7AF85600195769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32E4520B1B7AF85600195769 = {
+			isa = PBXGroup;
+			children = (
+				32E452161B7AF85600195769 /* baidu */,
+				32E452301B7AF85600195769 /* baiduTests */,
+				32E452151B7AF85600195769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32E452151B7AF85600195769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E452141B7AF85600195769 /* baidu.app */,
+				32E4522D1B7AF85600195769 /* baiduTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32E452161B7AF85600195769 /* baidu */ = {
+			isa = PBXGroup;
+			children = (
+				32E4521B1B7AF85600195769 /* AppDelegate.h */,
+				32E4521C1B7AF85600195769 /* AppDelegate.m */,
+				32E4521E1B7AF85600195769 /* ViewController.h */,
+				32E4521F1B7AF85600195769 /* ViewController.m */,
+				32E452211B7AF85600195769 /* Main.storyboard */,
+				32E452241B7AF85600195769 /* Images.xcassets */,
+				32E452261B7AF85600195769 /* LaunchScreen.xib */,
+				32E452171B7AF85600195769 /* Supporting Files */,
+			);
+			path = baidu;
+			sourceTree = "<group>";
+		};
+		32E452171B7AF85600195769 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32E452181B7AF85600195769 /* Info.plist */,
+				32E452191B7AF85600195769 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32E452301B7AF85600195769 /* baiduTests */ = {
+			isa = PBXGroup;
+			children = (
+				32E452331B7AF85600195769 /* baiduTests.m */,
+				32E452311B7AF85600195769 /* Supporting Files */,
+			);
+			path = baiduTests;
+			sourceTree = "<group>";
+		};
+		32E452311B7AF85600195769 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32E452321B7AF85600195769 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32E452131B7AF85600195769 /* baidu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E452371B7AF85600195769 /* Build configuration list for PBXNativeTarget "baidu" */;
+			buildPhases = (
+				32E452101B7AF85600195769 /* Sources */,
+				32E452111B7AF85600195769 /* Frameworks */,
+				32E452121B7AF85600195769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = baidu;
+			productName = baidu;
+			productReference = 32E452141B7AF85600195769 /* baidu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32E4522C1B7AF85600195769 /* baiduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E4523A1B7AF85600195769 /* Build configuration list for PBXNativeTarget "baiduTests" */;
+			buildPhases = (
+				32E452291B7AF85600195769 /* Sources */,
+				32E4522A1B7AF85600195769 /* Frameworks */,
+				32E4522B1B7AF85600195769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32E4522F1B7AF85600195769 /* PBXTargetDependency */,
+			);
+			name = baiduTests;
+			productName = baiduTests;
+			productReference = 32E4522D1B7AF85600195769 /* baiduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E4520C1B7AF85600195769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = heima;
+				TargetAttributes = {
+					32E452131B7AF85600195769 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					32E4522C1B7AF85600195769 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 32E452131B7AF85600195769;
+					};
+				};
+			};
+			buildConfigurationList = 32E4520F1B7AF85600195769 /* Build configuration list for PBXProject "baidu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32E4520B1B7AF85600195769;
+			productRefGroup = 32E452151B7AF85600195769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32E452131B7AF85600195769 /* baidu */,
+				32E4522C1B7AF85600195769 /* baiduTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E452121B7AF85600195769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E452231B7AF85600195769 /* Main.storyboard in Resources */,
+				32E452281B7AF85600195769 /* LaunchScreen.xib in Resources */,
+				32E452251B7AF85600195769 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E4522B1B7AF85600195769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E452101B7AF85600195769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E452201B7AF85600195769 /* ViewController.m in Sources */,
+				32E4521D1B7AF85600195769 /* AppDelegate.m in Sources */,
+				32E4521A1B7AF85600195769 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E452291B7AF85600195769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E452341B7AF85600195769 /* baiduTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32E4522F1B7AF85600195769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E452131B7AF85600195769 /* baidu */;
+			targetProxy = 32E4522E1B7AF85600195769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32E452211B7AF85600195769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E452221B7AF85600195769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32E452261B7AF85600195769 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E452271B7AF85600195769 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32E452351B7AF85600195769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32E452361B7AF85600195769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E452381B7AF85600195769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = baidu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32E452391B7AF85600195769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = baidu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32E4523B1B7AF85600195769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = baiduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baidu.app/baidu";
+			};
+			name = Debug;
+		};
+		32E4523C1B7AF85600195769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = baiduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baidu.app/baidu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E4520F1B7AF85600195769 /* Build configuration list for PBXProject "baidu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E452351B7AF85600195769 /* Debug */,
+				32E452361B7AF85600195769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E452371B7AF85600195769 /* Build configuration list for PBXNativeTarget "baidu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E452381B7AF85600195769 /* Debug */,
+				32E452391B7AF85600195769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32E4523A1B7AF85600195769 /* Build configuration list for PBXNativeTarget "baiduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E4523B1B7AF85600195769 /* Debug */,
+				32E4523C1B7AF85600195769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32E4520C1B7AF85600195769 /* Project object */;
+}
